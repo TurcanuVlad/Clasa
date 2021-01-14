@@ -14,7 +14,7 @@ for i in n:
     if ord(i) in range (49,58):
         c+=1
 for i in n:
-    if ord(i) in rage (33,42):
+    if ord(i) in range (33,42):
         d+=1
 with open('Majuscule.txt', 'w') as f:
     f.write(str(a))
